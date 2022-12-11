@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-10 py-10 min-h-screen">
+      <main className="px-10 py-10 min-h-screen md:px-60 lg:px-64 ">
         <section className="mb-40">
           <nav className="flex justify-between mb-6">
             <h1 className="text-xl font-semibold">Emelyn Barrientos</h1>
