@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
+import { HiOutlineExternalLink } from 'react-icons/hi'
 
 export default function Home() {
   return (
@@ -77,6 +78,19 @@ export default function Home() {
 
         <section>
           <h3 className="text-lg font-semibold">Personal Projects</h3>
+
+          {/* PROJECT CARDS */}
+          <div>
+            <h4>Wellington on a Beach</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              consequat libero id libero aliquet, sodales maximus tortor rutrum.
+            </p>
+            <a>Go to website</a>
+            <HiOutlineExternalLink className=" flex justify-start" />
+            <a>Go to Github</a>
+            <HiOutlineExternalLink />
+          </div>
         </section>
       </main>
     </div>
