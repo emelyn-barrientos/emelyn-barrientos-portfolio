@@ -12,6 +12,8 @@ import { useState } from 'react'
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
 
+  const handleClick = () => setDarkMode(!darkMode)
+
   return (
     <div
       className="bg-zinc-100 flex justify-center"
@@ -33,7 +35,10 @@ export default function Home() {
             <h1 className="text-xl font-semibold">Emelyn Barrientos</h1>
             <ul className="flex">
               <li>
-                <BsFillMoonStarsFill className="text-2xl" />
+                <BsFillMoonStarsFill
+                  onClick={handleClick}
+                  className="text-2xl"
+                />
               </li>
             </ul>
           </nav>
