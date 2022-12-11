@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className="px-10 py-10 min-h-screen">
-        <section>
+        <section className="mb-40">
           <nav className="flex justify-between mb-6">
             <h1 className="text-xl font-semibold">Emelyn Barrientos</h1>
             <ul className="flex">
@@ -56,6 +56,25 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+        </section>
+
+        <section>
+          <h2>Kia ora, I'm Emelyn.</h2>
+          <p>
+            I'm a junior software developer based in Wellington, New Zealand and
+            a recent graduate from Dev Academy Aotearoa! I love reading and
+            writing fantasty fiction, coding, and gaming.
+          </p>
+          <p>
+            I have a strong foundation in JavaScript, CSS, and HTML programming
+            lanugages. Additionally, I'm familiar with React, Redux, Node.js,
+            RESTful APIs, Jest, Handlebars, Superagent, Express & SQLite!
+          </p>
+          <p>
+            Currently, I'm on the hunt for my first tech industry role as a
+            junior developer and I'm super excited to continue growing my
+            software/web development skills with a team.
+          </p>
         </section>
       </main>
     </div>
