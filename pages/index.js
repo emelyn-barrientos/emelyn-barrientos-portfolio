@@ -3,6 +3,7 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
 import Image from 'next/image'
+import portrait from '../public/images/portrait.png'
 import woab from '../public/images/woab.png'
 import badreads from '../public/images/badreads.png'
 
@@ -63,21 +64,31 @@ export default function Home() {
           </nav>
         </section>
 
-        <section className="mb-24 max-w-xl">
-          <h2 className="text-4xl font-bold mb-6">Kia ora, I'm Emelyn.</h2>
-          <p className="mb-3">
-            I'm a junior software developer based in Wellington, New Zealand and
-            a recent graduate from Dev Academy Aotearoa! I love reading and
-            writing fantasty fiction, coding, and gaming.
-          </p>
-          <p>
-            I have a strong foundation in{' '}
-            <span className="text-accent-violet">JavaScript</span>,{' '}
-            <span className="text-accent-green">CSS</span>, and{' '}
-            <span className="text-accent-red">HTML</span> programming lanugages.
-            Additionally, I'm familiar with React, Redux, Node.js, RESTful APIs,
-            Jest, Handlebars, Superagent, Express & SQLite!
-          </p>
+        <section className="grid md:grid-cols-2 gap-10 mb-10">
+          <div className=" w-96">
+            <h2 className="text-4xl font-bold mb-6">Kia ora, I'm Emelyn.</h2>
+            <p className="mb-3">
+              I'm a junior software developer based in Wellington, New Zealand
+              and a recent graduate from Dev Academy Aotearoa! I love reading
+              and writing fantasty fiction, coding, and gaming.
+            </p>
+            <p>
+              I have a strong foundation in{' '}
+              <span className="text-accent-violet">JavaScript</span>,{' '}
+              <span className="text-accent-green">CSS</span>, and{' '}
+              <span className="text-accent-red">HTML</span> programming
+              languages. Additionally, I'm familiar with React, Redux, Node.js,
+              RESTful APIs, Jest, Handlebars, Superagent, Express & SQLite!
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <Image
+              src={portrait}
+              width={275}
+              height={350}
+              alt="Place holder for portrait of Emelyn."
+            />
+          </div>
         </section>
 
         <section>
