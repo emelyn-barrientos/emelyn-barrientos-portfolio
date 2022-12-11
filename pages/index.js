@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-10 py-10 min-h-screen md:px-60 lg:px-64 ">
+      <main className="px-10 py-10 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-72">
         <section className="mb-40">
           <nav className="flex justify-between mb-6">
             <h1 className="text-xl font-semibold">Emelyn Barrientos</h1>
@@ -63,7 +63,7 @@ export default function Home() {
           </nav>
         </section>
 
-        <section className="mb-40">
+        <section className="mb-40 max-w-xl">
           <h2 className="text-4xl font-bold mb-6">Kia ora, I'm Emelyn.</h2>
           <p className="mb-3">
             I'm a junior software developer based in Wellington, New Zealand and
