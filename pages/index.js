@@ -2,6 +2,9 @@ import Head from 'next/head'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
+import Image from 'next/image'
+import woab from '../public/images/woab.png'
+
 export default function Home() {
   return (
     <div className="bg-zinc-100">
@@ -81,6 +84,12 @@ export default function Home() {
 
           {/* PROJECT CARDS */}
           <div>
+            <Image
+              src={woab}
+              width={400}
+              height={215}
+              alt="Screenshot of the Wellington on a Beach website"
+            />
             <h4>Wellington on a Beach</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -88,7 +97,7 @@ export default function Home() {
             </p>
             <a>Go to website</a>
             <HiOutlineExternalLink className=" flex justify-start" />
-            <a>Go to Github</a>
+            <a>Go to github</a>
             <HiOutlineExternalLink />
           </div>
         </section>
