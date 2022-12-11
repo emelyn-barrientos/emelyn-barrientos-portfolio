@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { BsFillMoonStarsFill } from 'react-icons/bs'
 
 export default function Home() {
   return (
@@ -14,7 +15,24 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Kia ora, I'm Emelyn.</h1>
+        <section className=" min-h-screen">
+          <nav>
+            <h1>Emelyn Barrientos</h1>
+            <ul>
+              <li>emelyn.barrientos22@gmail.com</li>
+              <li>
+                <BsFillMoonStarsFill />
+              </li>
+            </ul>
+          </nav>
+          <nav>
+            <ul>
+              <li>Github</li>
+              <li>LinkedIn</li>
+              <li>CV/Resume</li>
+            </ul>
+          </nav>
+        </section>
       </main>
     </div>
   )
