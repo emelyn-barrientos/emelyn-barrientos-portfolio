@@ -59,21 +59,19 @@ export default function Home() {
         </section>
 
         <section>
-          <h2>Kia ora, I'm Emelyn.</h2>
-          <p>
+          <h2 className="text-4xl font-bold mb-6">Kia ora, I'm Emelyn.</h2>
+          <p className="mb-3">
             I'm a junior software developer based in Wellington, New Zealand and
             a recent graduate from Dev Academy Aotearoa! I love reading and
             writing fantasty fiction, coding, and gaming.
           </p>
-          <p>
-            I have a strong foundation in JavaScript, CSS, and HTML programming
-            lanugages. Additionally, I'm familiar with React, Redux, Node.js,
-            RESTful APIs, Jest, Handlebars, Superagent, Express & SQLite!
-          </p>
-          <p>
-            Currently, I'm on the hunt for my first tech industry role as a
-            junior developer and I'm super excited to continue growing my
-            software/web development skills with a team.
+          <p className="mb-3">
+            I have a strong foundation in{' '}
+            <span className="text-accent-violet">JavaScript</span>,{' '}
+            <span className="text-accent-green">CSS</span>, and{' '}
+            <span className="text-accent-red">HTML</span> programming lanugages.
+            Additionally, I'm familiar with React, Redux, Node.js, RESTful APIs,
+            Jest, Handlebars, Superagent, Express & SQLite!
           </p>
         </section>
       </main>
