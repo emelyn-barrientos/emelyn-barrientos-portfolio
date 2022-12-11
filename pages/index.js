@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { BsFillMoonStarsFill } from 'react-icons/bs'
+import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
 import Image from 'next/image'
@@ -35,14 +35,14 @@ export default function Home() {
                 <li>
                   <BsFillMoonStarsFill
                     onClick={handleClick}
-                    className="cursor-pointer text-2xl transition ease-in-out delay-110 hover:scale-110 duration-250 dark:fill-accent-gold"
+                    className="cursor-pointer text-2xl transition ease-in-out delay-75 hover:scale-110 duration-200 dark:fill-accent-gold"
                   />
                 </li>
               </ul>
             </nav>
             <nav className="flex justify-start">
               <ul className="flex">
-                <li className="font-medium mr-8">
+                <li className="font-medium mr-8 transition ease-in-out hover:underline underline-offset-4 hover:text-accent-violet decoration-2 hover:duration-75">
                   <a
                     href="https://github.com/emelyn-barrientos/"
                     target="_blank"
@@ -51,7 +51,7 @@ export default function Home() {
                     Github
                   </a>
                 </li>
-                <li className="font-medium mr-8">
+                <li className="font-medium mr-8 transition ease-in-out hover:underline underline-offset-4 hover:text-accent-green decoration-2 hover:duration-75">
                   <a
                     href="https://www.linkedin.com/in/emelyn-barrientos/"
                     target="_blank"
@@ -60,8 +60,10 @@ export default function Home() {
                     LinkedIn
                   </a>
                 </li>
-                <li className="font-medium mr-8">CV/Resume</li>
-                <li className="font-medium mr-8">
+                <li className="font-medium mr-8 transition ease-in-out hover:underline underline-offset-4 hover:text-accent-gold decoration-2 hover:duration-75">
+                  CV/Resume
+                </li>
+                <li className="font-medium mr-8 transition ease-in-out hover:underline underline-offset-4 hover:text-accent-red decoration-2 hover:duration-75">
                   <a
                     href="mailto: emelyn.barrientos22@gmail.com"
                     target="_blank"
@@ -123,11 +125,11 @@ export default function Home() {
                   Aliquam consequat libero id libero aliquet, sodales maximus
                   tortor rutrum.
                 </p>
-                <a className="text-contrast-white text-sm font-light underline underline-offset-4 mr-2">
+                <a className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2">
                   Go to website
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
-                <a className="text-contrast-white text-sm font-light underline underline-offset-4 mr-2">
+                <a className="text-contrast-white text-sm font-light decoration-2 underline underline-offset-4 mr-2">
                   Go to github
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
@@ -149,11 +151,11 @@ export default function Home() {
                   Aliquam consequat libero id libero aliquet, sodales maximus
                   tortor rutrum.
                 </p>
-                <a className="text-contrast-white text-sm font-light underline underline-offset-4 mr-2">
+                <a className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2">
                   Go to website
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
-                <a className="text-contrast-white text-sm font-light underline underline-offset-4 mr-2">
+                <a className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2">
                   Go to github
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
