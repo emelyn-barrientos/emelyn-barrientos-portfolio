@@ -5,8 +5,10 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    fontFamily: {
-      sans: ['Sora', 'sans-serif'],
+    extend: {
+      fontFamily: {
+        sans: ['Sora', 'sans-serif'],
+      },
     },
   },
   plugins: [],
