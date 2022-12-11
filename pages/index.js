@@ -58,14 +58,14 @@ export default function Home() {
           </nav>
         </section>
 
-        <section>
+        <section className="mb-40">
           <h2 className="text-4xl font-bold mb-6">Kia ora, I'm Emelyn.</h2>
           <p className="mb-3">
             I'm a junior software developer based in Wellington, New Zealand and
             a recent graduate from Dev Academy Aotearoa! I love reading and
             writing fantasty fiction, coding, and gaming.
           </p>
-          <p className="mb-3">
+          <p>
             I have a strong foundation in{' '}
             <span className="text-accent-violet">JavaScript</span>,{' '}
             <span className="text-accent-green">CSS</span>, and{' '}
@@ -73,6 +73,10 @@ export default function Home() {
             Additionally, I'm familiar with React, Redux, Node.js, RESTful APIs,
             Jest, Handlebars, Superagent, Express & SQLite!
           </p>
+        </section>
+
+        <section>
+          <h3 className="text-lg font-semibold">Personal Projects</h3>
         </section>
       </main>
     </div>
