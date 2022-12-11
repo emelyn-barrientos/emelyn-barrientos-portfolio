@@ -11,6 +11,7 @@ module.exports = {
         'accent-violet': '#6E3EF4',
         'accent-green': '#00AE84',
         'accent-red': '#FB4C4C',
+        'accent-gold': '#E8A700',
       },
       fontFamily: {
         sans: ['Sora', 'sans-serif'],
