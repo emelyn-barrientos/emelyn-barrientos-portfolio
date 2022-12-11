@@ -14,22 +14,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <section className=" min-h-screen">
-          <nav>
+      <main className="mx-10 my-10 min-h-screen">
+        <section>
+          <nav className="flex justify-between mb-6">
             <h1>Emelyn Barrientos</h1>
-            <ul>
-              <li>emelyn.barrientos22@gmail.com</li>
+            <ul className="flex">
+              <li className="mr-8">emelyn.barrientos22@gmail.com</li>
               <li>
                 <BsFillMoonStarsFill />
               </li>
             </ul>
           </nav>
-          <nav>
-            <ul>
-              <li>Github</li>
-              <li>LinkedIn</li>
-              <li>CV/Resume</li>
+          <nav className="flex justify-start">
+            <ul className="flex">
+              <li className="mr-8">Github</li>
+              <li className="mr-8">LinkedIn</li>
+              <li className="mr-8">CV/Resume</li>
             </ul>
           </nav>
         </section>
