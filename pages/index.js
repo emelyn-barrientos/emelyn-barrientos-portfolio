@@ -7,7 +7,11 @@ import portrait from '../public/images/portrait.png'
 import woab from '../public/images/woab.png'
 import badreads from '../public/images/badreads.png'
 
+import { useState } from 'react'
+
 export default function Home() {
+  const [darkMode, setDarkMode] = useState(false)
+
   return (
     <div className="bg-zinc-100 flex justify-center">
       <Head>
