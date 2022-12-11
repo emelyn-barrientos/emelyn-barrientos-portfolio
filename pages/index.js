@@ -27,8 +27,24 @@ export default function Home() {
           </nav>
           <nav className="flex justify-start">
             <ul className="flex">
-              <li className="mr-8">Github</li>
-              <li className="mr-8">LinkedIn</li>
+              <li className="mr-8">
+                <a
+                  href="https://github.com/emelyn-barrientos/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </li>
+              <li className="mr-8">
+                <a
+                  href="https://www.linkedin.com/in/emelyn-barrientos/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </li>
               <li className="mr-8">CV/Resume</li>
             </ul>
           </nav>
