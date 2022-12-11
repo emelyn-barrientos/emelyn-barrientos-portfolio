@@ -4,6 +4,7 @@ import { HiOutlineExternalLink } from 'react-icons/hi'
 
 import Image from 'next/image'
 import woab from '../public/images/woab.png'
+import badreads from '../public/images/badreads.png'
 
 export default function Home() {
   return (
@@ -93,6 +94,31 @@ export default function Home() {
             />
             <h4 className="text-contrast-white text-lg font-semibold mb-3">
               Wellington on a Beach
+            </h4>
+            <p className="text-contrast-white font-light mb-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              consequat libero id libero aliquet, sodales maximus tortor rutrum.
+            </p>
+            <a className="text-contrast-white text-sm font-light underline underline-offset-4 mr-2">
+              Go to website
+            </a>
+            <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
+            <a className="text-contrast-white text-sm font-light underline underline-offset-4 mr-2">
+              Go to github
+            </a>
+            <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
+          </div>
+
+          <div className=" bg-accent-red lex-1 shadow-lg p-7 rounded-xl my-6">
+            <Image
+              className="mb-3 rounded-xl"
+              src={badreads}
+              width={400}
+              height={215}
+              alt="Screenshot of the Wellington on a Beach website"
+            />
+            <h4 className="text-contrast-white text-lg font-semibold mb-3">
+              badreads
             </h4>
             <p className="text-contrast-white font-light mb-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
