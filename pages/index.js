@@ -76,7 +76,7 @@ export default function Home() {
             </nav>
           </section>
 
-          <section className="grid md:grid-cols-2 gap-10 mb-10">
+          <section className="grid lg:grid-cols-2 gap-10 mb-10">
             <div className=" w-96">
               <h2 className="text-4xl font-bold mb-6">Kia ora, I'm Emelyn.</h2>
               <p className="mb-3">
