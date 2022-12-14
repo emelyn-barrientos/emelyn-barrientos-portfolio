@@ -108,6 +108,7 @@ export default function Home() {
 
             {/* PROJECT CARDS */}
             <div className="grid lg:grid-cols-2 gap-10 mb-24">
+              {/* Wellington on a Beach */}
               <div className=" bg-accent-violet lex-1 shadow-lg p-7 rounded-lg my-6 sm:max-w-xs md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm ">
                 <Image
                   className="mb-3 rounded-lg"
@@ -124,16 +125,27 @@ export default function Home() {
                   Aliquam consequat libero id libero aliquet, sodales maximus
                   tortor rutrum.
                 </p>
-                <a className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2">
+                <a
+                  className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2"
+                  href="https://woab.devacademy.nz/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Go to website
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
-                <a className="text-contrast-white text-sm font-light decoration-2 underline underline-offset-4 mr-2">
+                <a
+                  className="text-contrast-white text-sm font-light decoration-2 underline underline-offset-4 mr-2"
+                  href="https://github.com/emelyn-barrientos/welly-on-a-beach.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Go to github
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
               </div>
 
+              {/* badreads */}
               <div className=" bg-accent-red lex-1 shadow-lg p-7 rounded-lg my-6 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm">
                 <Image
                   className="mb-3 rounded-lg"
@@ -154,7 +166,12 @@ export default function Home() {
                   Go to website
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
-                <a className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2">
+                <a
+                  className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2"
+                  href="https://github.com/emelyn-barrientos/bad-reads.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Go to github
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
