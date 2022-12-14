@@ -91,13 +91,12 @@ export default function Home() {
                 inclusive, and equitable technology.
               </p>
               <p>
-                I have a strong foundation in{' '}
                 <span className="text-accent-violet">JavaScript</span>,{' '}
                 <span className="text-accent-green">CSS</span>, and{' '}
-                <span className="text-accent-red">HTML</span> programming
-                languages. Currently, I'm continuing to refine my skills in
-                React and I look forward to exploring TypeScript and C# as well
-                as Tailwind CCS and Material UI.
+                <span className="text-accent-red">HTML</span> are my jam.
+                Currently, I'm continuing to refine my skills in React.js and I
+                look forward to exploring TypeScript, C#, Tailwind CSS, and
+                Next.js!
               </p>
             </div>
             <div className="flex justify-center">
