@@ -61,9 +61,6 @@ export default function Home() {
                   </a>
                 </li>
                 <li className="font-medium mr-8 sm:mr-0 transition ease-in-out hover:underline underline-offset-4 hover:text-accent-gold decoration-2 hover:duration-75">
-                  CV/Resume
-                </li>
-                <li className="font-medium mr-8 sm:mr-0 transition ease-in-out hover:underline underline-offset-4 hover:text-accent-red decoration-2 hover:duration-75">
                   <a
                     href="mailto: emelyn.barrientos22@gmail.com"
                     target="_blank"
