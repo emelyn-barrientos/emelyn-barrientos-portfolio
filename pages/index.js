@@ -3,7 +3,7 @@ import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
 import Image from 'next/image'
-import portrait from '../public/images/portrait.png'
+import portfolioPic from '../public/images/emelyn-barrientos.png'
 import woab from '../public/images/woab.png'
 import badreads from '../public/images/badreads.png'
 
@@ -96,10 +96,9 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <Image
-                src={portrait}
-                width={275}
-                height={350}
-                alt="Place holder for portrait of Emelyn."
+                className="rounded-lg shadow-custom max-w-xs"
+                src={portfolioPic}
+                alt="Photograph of Emelyn Barrientos, 2022."
               />
             </div>
           </section>

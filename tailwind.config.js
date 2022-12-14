@@ -18,6 +18,9 @@ module.exports = {
       fontFamily: {
         sans: ['Sora', 'sans-serif'],
       },
+      boxShadow: {
+        custom: '10px 10px 0px -1px #00AE84;',
+      },
     },
   },
   plugins: [],
