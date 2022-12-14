@@ -15,6 +15,13 @@ module.exports = {
         'accent-red': '#FB4C4C',
         'accent-gold': '#E8A700',
       },
+      screens: {
+        sm: { max: '640px' },
+        // md: '768px',
+        // lg: '1024px',
+        // xl: '1280px',
+        // '2xl': '1536px',
+      },
       fontFamily: {
         sans: ['Sora', 'sans-serif'],
       },
