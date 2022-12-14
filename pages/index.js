@@ -80,23 +80,27 @@ export default function Home() {
             <div className=" w-96 sm:text-center sm:max-w-xs">
               <h2 className="text-4xl font-bold mb-6">Kia ora, I'm Emelyn.</h2>
               <p className="mb-3">
-                I'm a junior software developer based in Wellington, New Zealand
-                and a recent graduate from Dev Academy Aotearoa! I love reading
-                and writing fantasty fiction, coding, and gaming.
+                I'm a software developer based in Wellington, New Zealand but
+                original from Chicago, USA. I love reading and writing fantasty
+                fiction, coding, and gaming.
+              </p>
+              <p className="mb-3">
+                I'm a career changer ready to dive into the world of web
+                development and who's passionate about creating diverse,
+                inclusive, and equitable technology.
               </p>
               <p>
                 I have a strong foundation in{' '}
                 <span className="text-accent-violet">JavaScript</span>,{' '}
                 <span className="text-accent-green">CSS</span>, and{' '}
                 <span className="text-accent-red">HTML</span> programming
-                languages. Additionally, I'm familiar with React, Redux,
-                Node.js, RESTful APIs, Jest, Handlebars, Superagent, Express &
-                SQLite!
+                languages. Currently, I'm continuing to refine my skills in
+                React and I look forward to exploring TypeScript and C#.
               </p>
             </div>
             <div className="flex justify-center">
               <Image
-                className="rounded-lg shadow-custom max-w-xs"
+                className="rounded-lg shadow-custom md:max-w-sm sm:max-w-xs"
                 src={portfolioPic}
                 alt="Photograph of Emelyn Barrientos, 2022."
               />
@@ -109,7 +113,7 @@ export default function Home() {
             {/* PROJECT CARDS */}
             <div className="grid lg:grid-cols-2 gap-10 sm:gap-5 mb-24">
               {/* Wellington on a Beach */}
-              <div className=" bg-accent-violet flex-1 p-5 rounded-lg my-6 max-w-sm">
+              <div className=" bg-accent-violet flex-1 p-7 rounded-lg my-6 max-w-sm">
                 <Image
                   className="mb-3 rounded-lg"
                   src={woab}
@@ -145,7 +149,7 @@ export default function Home() {
               </div>
 
               {/* badreads */}
-              <div className=" bg-accent-red flex-1 p-5 rounded-lg my-6 max-w-sm">
+              <div className=" bg-accent-red flex-1 p-7 rounded-lg my-6 max-w-sm">
                 <Image
                   className="mb-3 rounded-lg"
                   src={badreads}
