@@ -129,7 +129,7 @@ export default function Home() {
                   current weather conditions.
                 </p>
                 <a
-                  className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2"
+                  className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4"
                   href="https://woab.devacademy.nz/"
                   target="_blank"
                   rel="noreferrer"
@@ -138,14 +138,14 @@ export default function Home() {
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
                 <a
-                  className="text-contrast-white text-sm font-light decoration-2 underline underline-offset-4 mr-2"
+                  className="text-contrast-white text-sm font-light decoration-2 underline underline-offset-4"
                   href="https://github.com/emelyn-barrientos/welly-on-a-beach.git"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Go to github
                 </a>
-                <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
+                <HiOutlineExternalLink className="text-contrast-white text-lg inline-block" />
               </div>
 
               {/* badreads */}
@@ -164,12 +164,12 @@ export default function Home() {
                   An ongoing project where I'm flexing my full-stack development
                   skills to create a website for honest book ratings.
                 </p>
-                <a className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2">
+                <a className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4">
                   Go to website
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
                 <a
-                  className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2"
+                  className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4"
                   href="https://github.com/emelyn-barrientos/bad-reads.git"
                   target="_blank"
                   rel="noreferrer"
