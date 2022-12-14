@@ -27,7 +27,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <main className="px-10 py-10 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-7">
+        <main className="mx-10 my-10 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-7">
           <section className="mb-24">
             <nav className="flex justify-between mb-6">
               <h1 className="text-xl font-semibold">Emelyn Barrientos</h1>
@@ -109,7 +109,7 @@ export default function Home() {
             {/* PROJECT CARDS */}
             <div className="grid lg:grid-cols-2 gap-10 mb-24">
               {/* Wellington on a Beach */}
-              <div className=" bg-accent-violet flex-1 p-7 rounded-lg my-6 sm:max-w-xs md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm ">
+              <div className=" bg-accent-violet flex-1 p-7 rounded-lg my-6 max-w-sm">
                 <Image
                   className="mb-3 rounded-lg"
                   src={woab}
@@ -145,7 +145,7 @@ export default function Home() {
               </div>
 
               {/* badreads */}
-              <div className=" bg-accent-red flex-1 p-7 rounded-lg my-6 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm">
+              <div className=" bg-accent-red flex-1 p-7 rounded-lg my-6 max-w-sm">
                 <Image
                   className="mb-3 rounded-lg"
                   src={badreads}
