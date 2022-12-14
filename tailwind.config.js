@@ -16,8 +16,8 @@ module.exports = {
         'accent-gold': '#E8A700',
       },
       screens: {
-        sm: '280px',
-        md: '768px',
+        sm: { max: '640px' },
+        // md: '768px',
         // lg: '1024px',
         // xl: '1280px',
         // '2xl': '1536px',
