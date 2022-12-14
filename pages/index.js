@@ -108,7 +108,7 @@ export default function Home() {
 
             {/* PROJECT CARDS */}
             <div className="grid lg:grid-cols-2 gap-10 mb-24">
-              <div className=" bg-accent-violet lex-1 shadow-lg p-7 rounded-lg my-6 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm ">
+              <div className=" bg-accent-violet lex-1 shadow-lg p-7 rounded-lg my-6 sm:max-w-xs md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm ">
                 <Image
                   className="mb-3 rounded-lg"
                   src={woab}
