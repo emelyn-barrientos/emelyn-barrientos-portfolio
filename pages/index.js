@@ -35,7 +35,7 @@ export default function Home() {
                 <li>
                   <BsFillMoonStarsFill
                     onClick={handleClick}
-                    className="cursor-pointer text-2xl transition ease-in-out delay-75 hover:scale-110 duration-200 dark:fill-accent-gold"
+                    className="cursor-pointer text-2xl transition ease-in-out hover:scale-125 duration-200 dark:fill-accent-gold"
                   />
                 </li>
               </ul>
