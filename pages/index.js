@@ -94,9 +94,9 @@ export default function Home() {
                 SQLite!
               </p>
             </div>
-            <div className="flex justify-center shadow-2xl">
+            <div className="flex justify-center">
               <Image
-                className="rounded-lg shadow-custom"
+                className="rounded-lg shadow-custom max-w-xs"
                 src={portfolioPic}
                 alt="Photograph of Emelyn Barrientos, 2022."
               />
