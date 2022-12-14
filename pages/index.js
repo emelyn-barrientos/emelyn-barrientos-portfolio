@@ -109,7 +109,7 @@ export default function Home() {
             {/* PROJECT CARDS */}
             <div className="grid lg:grid-cols-2 gap-10 mb-24">
               {/* Wellington on a Beach */}
-              <div className=" bg-accent-violet lex-1 shadow-lg p-7 rounded-lg my-6 sm:max-w-xs md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm ">
+              <div className=" bg-accent-violet flex-1 shadow-card p-7 rounded-lg my-6 sm:max-w-xs md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm ">
                 <Image
                   className="mb-3 rounded-lg"
                   src={woab}
@@ -121,9 +121,8 @@ export default function Home() {
                   Wellington on a Beach
                 </h4>
                 <p className="text-contrast-white font-light mb-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam consequat libero id libero aliquet, sodales maximus
-                  tortor rutrum.
+                  A web app to help Wellingtonians find the perfect beach during
+                  current weather conditions.
                 </p>
                 <a
                   className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2"
@@ -146,7 +145,7 @@ export default function Home() {
               </div>
 
               {/* badreads */}
-              <div className=" bg-accent-red lex-1 shadow-lg p-7 rounded-lg my-6 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm">
+              <div className=" bg-accent-red flex-1 shadow-card p-7 rounded-lg my-6 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm">
                 <Image
                   className="mb-3 rounded-lg"
                   src={badreads}
@@ -158,9 +157,8 @@ export default function Home() {
                   badreads
                 </h4>
                 <p className="text-contrast-white font-light mb-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam consequat libero id libero aliquet, sodales maximus
-                  tortor rutrum.
+                  An ongoing project where I'm flexing my full-stack development
+                  skills to create a website for honest book ratings.
                 </p>
                 <a className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4 mr-2">
                   Go to website
