@@ -82,8 +82,8 @@ export default function Home() {
               <h2 className="text-4xl font-bold mb-6">Kia ora, I'm Emelyn.</h2>
               <p className="mb-3">
                 I'm a software developer based in Wellington, New Zealand but
-                original from Chicago, USA. I love reading and writing fantasty
-                fiction, coding, and gaming.
+                originally from the Chicago, IL, USA. I love reading and writing
+                fantasy fiction, coding, and gaming.
               </p>
               <p className="mb-3">
                 I'm a career changer ready to dive into the world of web
@@ -96,7 +96,8 @@ export default function Home() {
                 <span className="text-accent-green">CSS</span>, and{' '}
                 <span className="text-accent-red">HTML</span> programming
                 languages. Currently, I'm continuing to refine my skills in
-                React and I look forward to exploring TypeScript and C#.
+                React and I look forward to exploring TypeScript and C# as well
+                as Tailwind CCS and Material UI.
               </p>
             </div>
             <div className="flex justify-center">
