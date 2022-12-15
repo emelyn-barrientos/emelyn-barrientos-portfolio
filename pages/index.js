@@ -181,6 +181,15 @@ export default function Home() {
               </div>
             </div>
           </section>
+
+          <footer>
+            <h6 className="text-xs mb-1 sm:text-center">
+              2022 Copyright © Emelyn Barrientos
+            </h6>
+            <h6 className="text-xs mb-1 sm:text-center">
+              Built with Next.js & Tailwind CSS
+            </h6>
+          </footer>
         </main>
       </div>
     </div>
