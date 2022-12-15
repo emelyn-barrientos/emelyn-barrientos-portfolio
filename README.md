@@ -9,7 +9,7 @@ In particular, I wanted to test out a new React framework with Next.js in combin
 
 ## TECH USED 👩🏽‍💻 ##
 - JavaScript
-- Reach.js
+- React.js
 - Next.js
 - Tailwind CSS
 - Vercel (deployment)
