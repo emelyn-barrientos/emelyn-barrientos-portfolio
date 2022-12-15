@@ -112,7 +112,7 @@ export default function Home() {
             <h3 className="text-lg font-semibold">Personal Projects</h3>
 
             {/* PROJECT CARDS */}
-            <div className="grid lg:grid-cols-2 gap-10 sm:gap-5 mb-24">
+            <div className="grid lg:grid-cols-2 gap-10 sm:gap-5 mb-36">
               {/* Wellington on a Beach */}
               <div className=" bg-accent-violet flex-1 p-7 rounded-lg my-6 max-w-sm">
                 <Image
@@ -165,10 +165,6 @@ export default function Home() {
                   An ongoing project where I'm flexing my full-stack development
                   skills to create a website for honest book ratings.
                 </p>
-                <a className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4">
-                  Go to website
-                </a>
-                <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
                 <a
                   className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4"
                   href="https://github.com/emelyn-barrientos/bad-reads.git"
@@ -184,7 +180,7 @@ export default function Home() {
 
           <footer>
             <h6 className="text-xs mb-1 sm:text-center">
-              2022 Copyright © Emelyn Barrientos
+              Created by Emelyn Barrientos
             </h6>
             <h6 className="text-xs mb-1 sm:text-center">
               Built with Next.js & Tailwind CSS
