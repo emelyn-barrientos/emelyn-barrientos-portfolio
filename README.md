@@ -1,5 +1,5 @@
 
-# 👋 Kia ora, I’m Emelyn & welcome to my portfolio website! #
+# 👋 Kia ora! Welcome to my portfolio website. #
 
 🔗 www.emelynbarrientos.com
 
