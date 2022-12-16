@@ -131,7 +131,7 @@ export default function Home() {
                 </p>
                 <a
                   className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-4"
-                  href="https://woab.devacademy.nz/"
+                  href="https://woab.devacademy.online/"
                   target="_blank"
                   rel="noreferrer"
                 >
