@@ -82,8 +82,8 @@ export default function Home() {
               <h2 className="text-4xl font-bold mb-6">Kia ora, I'm Emelyn.</h2>
               <p className="mb-3">
                 I'm a software developer based in Wellington, New Zealand but
-                originally from the Chicago, IL, USA. I love reading and writing
-                fantasy fiction, coding, and gaming.
+                originally from Chicago, USA. I love reading and writing fantasy
+                fiction, coding, and gaming.
               </p>
               <p className="mb-3">
                 I'm a career changer ready to dive into the world of web
