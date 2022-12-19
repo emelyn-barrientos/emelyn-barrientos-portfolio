@@ -91,7 +91,7 @@ export default function Home() {
                 inclusive, and equitable technology.
               </p>
               <p>
-                <span className="text-accent-violet">JavaScript</span>,{' '}
+                <span className="text-accent-blue">JavaScript</span>,{' '}
                 <span className="text-accent-green">CSS</span>, and{' '}
                 <span className="text-accent-red">HTML</span> are my jam.
                 Currently, I'm continuing to refine my skills in React.js and I
@@ -114,7 +114,7 @@ export default function Home() {
             {/* PROJECT CARDS */}
             <div className="grid lg:grid-cols-2 gap-10 sm:gap-5 mb-36">
               {/* Wellington on a Beach */}
-              <div className=" bg-accent-violet flex-1 p-7 rounded-lg my-6 max-w-sm">
+              <div className=" bg-accent-blue flex-1 p-7 rounded-lg my-6 max-w-sm">
                 <Image
                   className="mb-3 rounded-lg"
                   src={woab}
@@ -150,7 +150,7 @@ export default function Home() {
               </div>
 
               {/* badreads */}
-              <div className=" bg-accent-red flex-1 p-7 rounded-lg my-6 max-w-sm">
+              <div className=" bg-accent-green flex-1 p-7 rounded-lg my-6 max-w-sm">
                 <Image
                   className="mb-3 rounded-lg"
                   src={badreads}
