@@ -26,7 +26,7 @@ module.exports = {
         sans: ['Sora', 'sans-serif'],
       },
       boxShadow: {
-        custom: '10px 10px 0px 2px #00AE84;',
+        custom: '10px 10px 0px 2px #FB4C4C;',
       },
     },
   },
