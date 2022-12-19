@@ -10,10 +10,10 @@ module.exports = {
       colors: {
         'main-blue': '#1A124C',
         'contrast-white': '#FFFFFF',
-        'accent-violet': '#6E3EF4',
+        'accent-blue': '#2718d8',
         'accent-green': '#00AE84',
         'accent-red': '#FB4C4C',
-        'accent-gold': '#E8A700',
+        'accent-gold': '#feb814',
       },
       screens: {
         sm: { max: '640px' },
@@ -26,7 +26,7 @@ module.exports = {
         sans: ['Sora', 'sans-serif'],
       },
       boxShadow: {
-        custom: '10px 10px 0px 2px #00AE84;',
+        custom: '10px 10px 0px 2px #FB4C4C;',
       },
     },
   },
