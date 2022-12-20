@@ -3,9 +3,10 @@ import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
 import Image from 'next/image'
-import portfolioPic from '../public/images/emelyn-barrientos.png'
+import illustration from '../public/images/emelyn-illustration.svg'
 import woab from '../public/images/woab.png'
 import badreads from '../public/images/badreads.png'
+import blueCat from '../public/images/cat-blue.svg'
 
 import { useState } from 'react'
 
@@ -21,20 +22,20 @@ export default function Home() {
           <meta charSet="utf-8" />
           <meta
             name="portfolio"
-            content="Website to showcasing softward and web development projects created by Emelyn Barrientos."
+            content="Website to showcasing software and web development projects created by Emelyn Barrientos."
           />
           <link
             href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap"
             rel="stylesheet"
           />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/blue-cat.svg" />
           <title>Emelyn Barrientos</title>
         </Head>
 
-        <main className="mx-10 my-10 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-7">
+        <main className="mx-10 my-20 sm:my-10 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-7">
           <section className="mb-24 sm:mb-16">
-            <nav className="flex justify-between mb-6 sm:justify-evenly">
-              <h1 className="text-xl font-semibold">Emelyn Barrientos</h1>
+            <nav className="flex justify-between mb-4 sm:justify-evenly">
+              <h1 className="text-2xl font-semibold">Emelyn Barrientos</h1>
               <ul className="flex">
                 <li>
                   <BsFillMoonStarsFill
@@ -46,7 +47,7 @@ export default function Home() {
             </nav>
             <nav className="flex justify-start sm:flex-col">
               <ul className="flex sm:justify-evenly">
-                <li className="font-medium mr-8 sm:mr-0 transition ease-in-out hover:underline underline-offset-4 hover:text-accent-violet decoration-2 hover:duration-75">
+                <li className="font-medium mr-8 sm:mr-0 transition ease-in-out hover:underline underline-offset-4 hover:text-accent-red decoration-2 hover:duration-75">
                   <a
                     href="https://github.com/emelyn-barrientos/"
                     target="_blank"
@@ -94,16 +95,15 @@ export default function Home() {
                 <span className="text-accent-blue">JavaScript</span>,{' '}
                 <span className="text-accent-green">CSS</span>, and{' '}
                 <span className="text-accent-red">HTML</span> are my jam.
-                Currently, I'm continuing to refine my skills in React.js and I
-                look forward to exploring TypeScript, C#, Tailwind CSS, and
-                Next.js!
+                Currently, I'm continuing to refine my skills in React.js and
+                I'm exploring TypeScript, Next.js, SASS, and Tailwind CSS!
               </p>
             </div>
             <div className="flex justify-center">
               <Image
-                className="rounded-lg shadow-custom md:max-w-sm sm:max-w-xs"
-                src={portfolioPic}
-                alt="Photograph of Emelyn Barrientos, 2022."
+                className="md:max-w-sm sm:max-w-xs"
+                src={illustration}
+                alt="Digital illustration of Emelyn Barrientos coding at her laptop with a determined expression on her face."
               />
             </div>
           </section>
@@ -178,12 +178,28 @@ export default function Home() {
             </div>
           </section>
 
-          <footer>
-            <h6 className="text-xs mb-1 sm:text-center">
-              Created by Emelyn Barrientos
-            </h6>
+          <footer className="text-center">
+            <div className="flex justify-center mb-4">
+              <Image
+                src={blueCat}
+                width={48}
+                height={48}
+                alt="Digital illustration of a blue cat's head"
+              />
+            </div>
             <h6 className="text-xs mb-1 sm:text-center">
               Built with Next.js & Tailwind CSS
+            </h6>
+            <h6 className="text-xs mb-1 sm:text-center">
+              Illustrations by the talented{' '}
+              <a
+                className="underline underline-offset-2 decoration-1 transition ease-in-out hover:text-accent-green hover:duration-75"
+                href="https://rubyash.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ruby Ash
+              </a>
             </h6>
           </footer>
         </main>
