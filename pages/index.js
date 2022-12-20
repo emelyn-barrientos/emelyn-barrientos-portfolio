@@ -6,6 +6,7 @@ import Image from 'next/image'
 import illustration from '../public/images/emelyn-illustration.svg'
 import woab from '../public/images/woab.png'
 import badreads from '../public/images/badreads.png'
+import blueCat from '../public/images/cat-blue.svg'
 
 import { useState } from 'react'
 
@@ -178,7 +179,15 @@ export default function Home() {
             </div>
           </section>
 
-          <footer>
+          <footer className="text-center">
+            <div className="flex justify-center mb-4">
+              <Image
+                src={blueCat}
+                width={48}
+                height={48}
+                alt="Digital illustration of a blue cat's head"
+              />
+            </div>
             <h6 className="text-xs mb-1 sm:text-center">
               Created by Emelyn Barrientos
             </h6>
