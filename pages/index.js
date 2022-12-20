@@ -47,7 +47,7 @@ export default function Home() {
             </nav>
             <nav className="flex justify-start sm:flex-col">
               <ul className="flex sm:justify-evenly">
-                <li className="font-medium mr-8 sm:mr-0 transition ease-in-out hover:underline underline-offset-4 hover:text-accent-violet decoration-2 hover:duration-75">
+                <li className="font-medium mr-8 sm:mr-0 transition ease-in-out hover:underline underline-offset-4 hover:text-accent-red decoration-2 hover:duration-75">
                   <a
                     href="https://github.com/emelyn-barrientos/"
                     target="_blank"
@@ -189,10 +189,18 @@ export default function Home() {
               />
             </div>
             <h6 className="text-xs mb-1 sm:text-center">
-              Created by Emelyn Barrientos
+              Built with Next.js & Tailwind CSS
             </h6>
             <h6 className="text-xs mb-1 sm:text-center">
-              Built with Next.js & Tailwind CSS
+              Illustrations by the talented{' '}
+              <a
+                className="underline underline-offset-2 decoration-1 transition ease-in-out hover:text-accent-green hover:duration-75"
+                href="https://rubyash.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ruby Ash
+              </a>
             </h6>
           </footer>
         </main>
