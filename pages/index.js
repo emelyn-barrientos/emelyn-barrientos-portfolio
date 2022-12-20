@@ -103,7 +103,7 @@ export default function Home() {
               <Image
                 className="md:max-w-sm sm:max-w-xs"
                 src={illustration}
-                alt="Photograph of Emelyn Barrientos, 2022."
+                alt="Digital illustration of Emelyn Barrientos coding at her laptop with a determined expression on her face."
               />
             </div>
           </section>
