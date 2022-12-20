@@ -32,7 +32,7 @@ export default function Home() {
           <title>Emelyn Barrientos</title>
         </Head>
 
-        <main className="mx-10 my-10 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-7">
+        <main className="mx-10 my-20 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-7">
           <section className="mb-24 sm:mb-16">
             <nav className="flex justify-between mb-6 sm:justify-evenly">
               <h1 className="text-xl font-semibold">Emelyn Barrientos</h1>
