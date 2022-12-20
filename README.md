@@ -15,7 +15,7 @@ In particular, I wanted to test out a new React framework with Next.js in combin
 - Vercel (deployment)
 
 ## NEXT STEPS ▶️ ##
-- [ ] Add personalised art portrait from local 
+- [x] Add personalised art portrait from local 
 - [ ] Refactor code into separate components within Next.js
 - [ ] Learn more about Next.js Pages
 - [ ] Add separate routes for About Me and potential blog page!
