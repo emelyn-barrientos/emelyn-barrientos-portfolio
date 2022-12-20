@@ -28,7 +28,7 @@ export default function Home() {
             href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap"
             rel="stylesheet"
           />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/blue-cat.svg" />
           <title>Emelyn Barrientos</title>
         </Head>
 
