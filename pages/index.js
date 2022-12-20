@@ -22,7 +22,7 @@ export default function Home() {
           <meta charSet="utf-8" />
           <meta
             name="portfolio"
-            content="Website to showcasing softward and web development projects created by Emelyn Barrientos."
+            content="Website to showcasing software and web development projects created by Emelyn Barrientos."
           />
           <link
             href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap"
@@ -32,7 +32,7 @@ export default function Home() {
           <title>Emelyn Barrientos</title>
         </Head>
 
-        <main className="mx-10 my-20 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-7">
+        <main className="mx-10 my-20 sm:my-10 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-7">
           <section className="mb-24 sm:mb-16">
             <nav className="flex justify-between mb-6 sm:justify-evenly">
               <h1 className="text-xl font-semibold">Emelyn Barrientos</h1>
