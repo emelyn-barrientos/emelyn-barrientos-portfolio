@@ -34,8 +34,8 @@ export default function Home() {
 
         <main className="mx-10 my-20 sm:my-10 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-7">
           <section className="mb-24 sm:mb-16">
-            <nav className="flex justify-between mb-6 sm:justify-evenly">
-              <h1 className="text-xl font-semibold">Emelyn Barrientos</h1>
+            <nav className="flex justify-between mb-4 sm:justify-evenly">
+              <h1 className="text-2xl font-semibold">Emelyn Barrientos</h1>
               <ul className="flex">
                 <li>
                   <BsFillMoonStarsFill
