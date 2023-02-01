@@ -47,7 +47,7 @@ export default function Home() {
             </nav>
             <nav className="flex justify-start sm:flex-col">
               <ul className="flex sm:justify-evenly">
-                <li className="font-medium mr-8 sm:mr-0 transition ease-in-out hover:underline underline-offset-2 hover:text-accent-red decoration-2 hover:duration-75">
+                <li className="font-medium mr-8 sm:mr-0 transition ease-in-out hover:underline decoration-1underline-offset-2 hover:text-accent-red decoration-2 hover:duration-75">
                   <a
                     href="https://github.com/emelyn-barrientos/"
                     target="_blank"
@@ -130,7 +130,7 @@ export default function Home() {
                   current weather conditions.
                 </p>
                 <a
-                  className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-2"
+                  className="text-contrast-white text-sm font-light underline decoration-1 underline-offset-2"
                   href="https://woab.devacademy.online/"
                   target="_blank"
                   rel="noreferrer"
@@ -139,7 +139,7 @@ export default function Home() {
                 </a>
                 <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
                 <a
-                  className="text-contrast-white text-sm font-light decoration-2 underline underline-offset-2"
+                  className="text-contrast-white text-sm font-light decoration-1 underline underline-offset-2"
                   href="https://github.com/emelyn-barrientos/welly-on-a-beach.git"
                   target="_blank"
                   rel="noreferrer"
@@ -166,7 +166,7 @@ export default function Home() {
                   skills to create a website for honest book ratings.
                 </p>
                 <a
-                  className="text-contrast-white text-sm font-light underline decoration-2 underline-offset-2"
+                  className="text-contrast-white text-sm font-light underline decoration-1 underline-offset-2"
                   href="https://github.com/emelyn-barrientos/bad-reads.git"
                   target="_blank"
                   rel="noreferrer"
