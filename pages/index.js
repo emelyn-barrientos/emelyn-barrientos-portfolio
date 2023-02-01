@@ -114,7 +114,7 @@ export default function Home() {
             {/* PROJECT CARDS */}
             <div className="grid lg:grid-cols-2 gap-10 sm:gap-5 mb-36">
               {/* Wellington on a Beach */}
-              <div className="bg-accent-blue flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg">
+              <div className="bg-accent-blue flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200">
                 <Image
                   className="mb-3 rounded-lg"
                   src={woab}
@@ -150,7 +150,7 @@ export default function Home() {
               </div>
 
               {/* badreads */}
-              <div className="bg-accent-green flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg">
+              <div className="bg-accent-green flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:scale-105 duration-200">
                 <Image
                   className="mb-3 rounded-lg"
                   src={badreads}
