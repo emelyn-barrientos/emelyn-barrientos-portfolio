@@ -113,6 +113,32 @@ export default function Home() {
 
             {/* PROJECT CARDS */}
             <div className="grid lg:grid-cols-2 gap-10 sm:gap-5 mb-36">
+              {/* Job-ish */}
+              <div className=" bg-accent-red flex-1 p-7 rounded-lg my-6 max-w-sm">
+                <Image
+                  className="mb-3 rounded-lg"
+                  src={woab}
+                  width={400}
+                  height={215}
+                  alt="Screenshot of the Wellington on a Beach website"
+                />
+                <h4 className="text-contrast-white text-lg font-semibold mb-5">
+                  Job-ish
+                </h4>
+                <p className="text-contrast-white font-light mb-5">
+                  Writing job descriptions has never been easier than with the
+                  help of AI.
+                </p>
+                <a
+                  className="text-contrast-white text-sm font-light decoration-2 underline underline-offset-4"
+                  href="https://github.com/emelyn-barrientos/ai-jobbish-descriptions.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Go to github
+                </a>
+                <HiOutlineExternalLink className="text-contrast-white text-lg inline-block" />
+              </div>
               {/* Wellington on a Beach */}
               <div className=" bg-accent-blue flex-1 p-7 rounded-lg my-6 max-w-sm">
                 <Image
