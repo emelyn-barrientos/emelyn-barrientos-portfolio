@@ -4,6 +4,7 @@ import { HiOutlineExternalLink } from 'react-icons/hi'
 
 import Image from 'next/image'
 import illustration from '../public/images/emelyn-illustration.svg'
+import jobish from '../public/images/jobish.png'
 import woab from '../public/images/woab.png'
 import badreads from '../public/images/badreads.png'
 import blueCat from '../public/images/cat-blue.svg'
@@ -117,7 +118,7 @@ export default function Home() {
               <div className=" bg-accent-red flex-1 p-7 rounded-lg my-6 max-w-sm">
                 <Image
                   className="mb-3 rounded-lg"
-                  src={woab}
+                  src={jobish}
                   width={400}
                   height={215}
                   alt="Screenshot of the Wellington on a Beach website"
