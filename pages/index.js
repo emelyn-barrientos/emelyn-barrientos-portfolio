@@ -95,9 +95,10 @@ export default function Home() {
               <p>
                 <span className="text-accent-blue">JavaScript</span>,{' '}
                 <span className="text-accent-green">CSS</span>, and{' '}
-                <span className="text-accent-red">HTML</span> are my jam.
-                Currently, I'm continuing to refine my skills in React.js and
-                I'm exploring TypeScript, Next.js, SASS, and Tailwind CSS!
+                <span className="text-accent-red">HTML</span> are my jam. In
+                addition to continuing to refine my skills in React.js, I'm
+                learning C# and exploring Next.js, SASS, and implementing
+                Headless CMS integrations!
               </p>
             </div>
             <div className="flex justify-center">
