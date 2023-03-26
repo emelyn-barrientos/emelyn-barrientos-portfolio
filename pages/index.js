@@ -115,6 +115,32 @@ export default function Home() {
 
             {/* PROJECT CARDS */}
             <div className="grid lg:grid-cols-2 gap-10 sm:gap-5 mb-36">
+              {/* bytemaps */}
+              <div className=" bg-accent-gold flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200">
+                <Image
+                  className="mb-3 rounded-lg"
+                  src={jobish}
+                  width={400}
+                  height={215}
+                  alt="Screenshot of the Wellington on a Beach website"
+                />
+                <h4 className="text-contrast-white text-lg font-semibold mb-5">
+                  bytemaps
+                </h4>
+                <p className="text-contrast-white font-light mb-5">
+                  Writing job descriptions has never been easier than with the
+                  help of AI.
+                </p>
+                <a
+                  className="text-contrast-white text-sm font-light decoration-2 underline underline-offset-4"
+                  href="https://github.com/emelyn-barrientos/ai-jobbish-descriptions.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Go to github
+                </a>
+                <HiOutlineExternalLink className="text-contrast-white text-lg inline-block" />
+              </div>
               {/* Job-ish */}
               <div className=" bg-accent-red flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200">
                 <Image
