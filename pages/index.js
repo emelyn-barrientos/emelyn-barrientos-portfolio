@@ -4,6 +4,7 @@ import { HiOutlineExternalLink } from 'react-icons/hi'
 
 import Image from 'next/image'
 import illustration from '../public/images/emelyn-illustration.svg'
+import bytemaps from '../public/images/bytemaps.png'
 import jobish from '../public/images/jobish.png'
 import woab from '../public/images/woab.png'
 import badreads from '../public/images/badreads.png'
@@ -119,7 +120,7 @@ export default function Home() {
               <div className=" bg-accent-gold flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200">
                 <Image
                   className="mb-3 rounded-lg"
-                  src={jobish}
+                  src={bytemaps}
                   width={400}
                   height={215}
                   alt="Screenshot of the Wellington on a Beach website"
