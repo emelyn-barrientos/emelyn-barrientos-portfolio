@@ -117,7 +117,7 @@ export default function Home() {
             {/* PROJECT CARDS */}
             <div className="grid lg:grid-cols-2 gap-10 sm:gap-5 mb-36">
               {/* bytemaps */}
-              <div className="bg-stone-100 flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:bg-accent-gold duration-200 hover:text-contrast-white">
+              <div className="bg-slate-50 flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:bg-accent-gold duration-200 hover:text-contrast-white">
                 <Image
                   className="mb-3 rounded-lg"
                   src={bytemaps}
@@ -150,7 +150,7 @@ export default function Home() {
                 <HiOutlineExternalLink className="text-lg inline-block" />
               </div>
               {/* Job-ish */}
-              <div className="bg-stone-100 flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:bg-accent-red duration-200 hover:text-contrast-white">
+              <div className="bg-slate-50 flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:bg-accent-red duration-200 hover:text-contrast-white">
                 <Image
                   className="mb-3 rounded-lg"
                   src={jobish}
@@ -174,7 +174,7 @@ export default function Home() {
                 <HiOutlineExternalLink className="text-lg inline-block" />
               </div>
               {/* Wellington on a Beach */}
-              <div className="bg-stone-100 flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:bg-accent-blue duration-200 hover:text-contrast-white">
+              <div className="bg-slate-50 flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:bg-accent-blue duration-200 hover:text-contrast-white">
                 <Image
                   className="mb-3 rounded-lg"
                   src={woab}
@@ -210,7 +210,7 @@ export default function Home() {
               </div>
 
               {/* badreads */}
-              <div className="bg-stone-100 flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:bg-accent-green duration-200 hover:text-contrast-white">
+              <div className="bg-slate-50 flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:bg-accent-green duration-200 hover:text-contrast-white">
                 <Image
                   className="mb-3 rounded-lg"
                   src={badreads}
