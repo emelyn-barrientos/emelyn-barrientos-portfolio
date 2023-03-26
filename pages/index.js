@@ -174,7 +174,7 @@ export default function Home() {
                 <HiOutlineExternalLink className="text-lg inline-block" />
               </div>
               {/* Wellington on a Beach */}
-              <div className="bg-accent-blue flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200">
+              <div className="bg-stone-100 flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:bg-accent-blue duration-200 hover:text-contrast-white">
                 <Image
                   className="mb-3 rounded-lg"
                   src={woab}
@@ -182,35 +182,35 @@ export default function Home() {
                   height={215}
                   alt="Screenshot of the Wellington on a Beach website"
                 />
-                <h4 className="text-contrast-white text-lg font-semibold mb-5">
+                <h4 className="text-lg font-semibold mb-5">
                   Wellington on a Beach
                 </h4>
-                <p className="text-contrast-white font-light mb-5">
+                <p className="font-light mb-5">
                   A web app to help Wellingtonians find the perfect beach during
                   current weather conditions.
                 </p>
                 <a
-                  className="text-contrast-white text-sm font-light underline decoration-1 underline-offset-4"
+                  className="text-sm font-light underline decoration-1 underline-offset-4"
                   href="https://woab.devacademy.online/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Go to website
                 </a>
-                <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
+                <HiOutlineExternalLink className="text-lg inline-block mr-5" />
                 <a
-                  className="text-contrast-white text-sm font-light decoration-1 underline underline-offset-4"
+                  className="text-sm font-light decoration-1 underline underline-offset-4"
                   href="https://github.com/emelyn-barrientos/welly-on-a-beach.git"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Go to github
                 </a>
-                <HiOutlineExternalLink className="text-contrast-white text-lg inline-block" />
+                <HiOutlineExternalLink className="text-lg inline-block" />
               </div>
 
               {/* badreads */}
-              <div className="bg-accent-green flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:scale-105 duration-200">
+              <div className="bg-stone-100 flex-1 p-7 rounded-lg my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:bg-accent-green duration-200 hover:text-contrast-white">
                 <Image
                   className="mb-3 rounded-lg"
                   src={badreads}
@@ -218,22 +218,20 @@ export default function Home() {
                   height={215}
                   alt="Screenshot of the Wellington on a Beach website"
                 />
-                <h4 className="text-contrast-white text-lg font-semibold mb-5">
-                  badreads
-                </h4>
-                <p className="text-contrast-white font-light mb-5">
+                <h4 className="text-lg font-semibold mb-5">badreads</h4>
+                <p className="font-light mb-5">
                   An ongoing project where I'm flexing my full-stack development
                   skills to create a website for honest book ratings.
                 </p>
                 <a
-                  className="text-contrast-white text-sm font-light underline decoration-1 underline-offset-4"
+                  className="text-sm font-light underline decoration-1 underline-offset-4"
                   href="https://github.com/emelyn-barrientos/bad-reads.git"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Go to github
                 </a>
-                <HiOutlineExternalLink className="text-contrast-white text-lg inline-block mr-5" />
+                <HiOutlineExternalLink className="text-lg inline-block mr-5" />
               </div>
             </div>
           </section>
