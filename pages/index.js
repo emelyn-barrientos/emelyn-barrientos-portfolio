@@ -190,15 +190,6 @@ export default function Home() {
                   current weather conditions.
                 </p>
                 <a
-                  className="text-sm font-light underline decoration-1 underline-offset-4"
-                  href="https://woab.devacademy.online/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Go to website
-                </a>
-                <HiOutlineExternalLink className="text-lg inline-block mr-5" />
-                <a
                   className="text-sm font-light decoration-1 underline underline-offset-4"
                   href="https://github.com/emelyn-barrientos/welly-on-a-beach.git"
                   target="_blank"
