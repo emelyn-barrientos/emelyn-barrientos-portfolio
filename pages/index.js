@@ -165,6 +165,15 @@ export default function Home() {
                 </p>
                 <a
                   className="text-sm font-light underline decoration-1 underline-offset-4"
+                  href="https://job-ish.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Go to website
+                </a>
+                <HiOutlineExternalLink className="text-lg inline-block mr-5" />
+                <a
+                  className="text-sm font-light underline decoration-1 underline-offset-4"
                   href="https://github.com/emelyn-barrientos/ai-jobbish-descriptions.git"
                   target="_blank"
                   rel="noreferrer"
