@@ -96,10 +96,11 @@ export default function Home() {
               <p>
                 <span className="text-accent-blue">JavaScript</span>,{' '}
                 <span className="text-accent-green">CSS</span>, and{' '}
-                <span className="text-accent-red">HTML</span> are my jam. In
-                addition to continuing to refine my skills in React.js, I'm
-                learning C# and exploring Next.js, SASS, and implementing
-                Headless CMS integrations!
+                <span className="text-accent-red">HTML</span> are my jam.
+                Currently, I'm learning <strong>TypeScript</strong> to
+                supplement my JavaScript and React skillset. Also, I'm really
+                lovely Next.js as a front end framework and exploring various
+                integrations with it.
               </p>
             </div>
             <div className="flex justify-center">
