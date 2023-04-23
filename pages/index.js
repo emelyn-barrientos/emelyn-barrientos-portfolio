@@ -99,7 +99,7 @@ export default function Home() {
                 <span className="text-accent-red">HTML</span> are my jam.
                 Currently, I'm learning <strong>TypeScript</strong> to
                 supplement my JavaScript and React skillset. Also, I'm really
-                lovely Next.js as a front end framework and exploring various
+                loving Next.js as a frontend framework and exploring various
                 integrations with it.
               </p>
             </div>
